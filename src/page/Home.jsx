@@ -1,13 +1,8 @@
-import React from "react";
-import HeaderTwo from "../component/HeaderTwo";
-import HeaderThree from "../component/HeaderThree";
-import HeaderFive from "../component/HeaderFive";
-import HeaderFour from "../component/HeaderFour";
 import cvOne from "../assets/images/cv-1.png";
 import cvTwo from "../assets/images/cv-2.png";
-import Header from "../component/Header";
+import HeaderFour from "../component/HeaderFour";
+import HeaderThree from "../component/HeaderThree";
 import Tags from "../component/Tags";
-import phone from "../assets/images/phone.png";
 
 const Home = () => {
   return (
@@ -17,15 +12,15 @@ const Home = () => {
           <Tags />
         </div>
 
-        <div className="w-full bg-[#F9F9F9] mt-[5%]">
+        {/* <div className="w-full bg-[#F9F9F9] mt-[5%]">
           <div className="w-full md:w-[75%]  mx-auto h-full pt-[1%] ">
             <HeaderTwo />
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         id="features"
-        className=" h-full mt-[10%] md:h-screen w-full bg-[#fff6ec] relative"
+        className=" h-full mt-[10%] md:h-screen w-full bg-[#FEFBEA] relative"
       >
         <div className=" w-full flex  justify-end absolute ">
           <img
@@ -49,17 +44,17 @@ const Home = () => {
           <HeaderFour />
         </div>
       </div>
-      <div className="h-full mb-[5%] w-full bg-[#FFF6EC]">
+      {/* <div className="h-full mb-[5%] w-full bg-[#FFF6EC]">
         <div className="w-full md:w-[75%] mx-auto h-full  ">
           <HeaderFive
-            alink="https://apps.apple.com/us/app/mycliq/id6514304272"
-            glink="https://play.google.com/store/apps/details?id=app.mycliq.us"
+            alink="https://apps.apple.com/us/app/Sync360/id6514304272"
+            glink="https://play.google.com/store/apps/details?id=app.Sync360.us"
             img={phone}
             title="App"
             type="user"
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

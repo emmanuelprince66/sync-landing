@@ -1,14 +1,13 @@
-import React from "react";
-import star from "../assets/images/star.svg";
+import FiberManualRecordRoundedIcon from "@mui/icons-material/FiberManualRecordRounded";
+import { Link } from "react-router-dom";
 import aOne from "../assets/images/a-1.svg";
 import cmOne from "../assets/images/cm-1.jpg";
 import cmTwo from "../assets/images/cm-2.jpg";
 import cmThree from "../assets/images/cm-3.jpg";
-import FiberManualRecordRoundedIcon from "@mui/icons-material/FiberManualRecordRounded";
 import sparkles from "../assets/images/sparkles.svg";
-import Navbar from "../component/Navbar";
+import star from "../assets/images/star.svg";
 import Footer from "../component/Footer";
-import { Link } from "react-router-dom";
+import Navbar from "../component/Navbar";
 
 const Campus = () => {
   return (
@@ -22,7 +21,7 @@ const Campus = () => {
             </div>
 
             <p className=" text-[25px] md:text-[48px] text-[#1E1E1E] text-center leading:[1rem] md:leading-[3rem]">
-              MyCliq Campus Ambassador
+              Sync360 Campus Ambassador
             </p>
             <sup>
               <img src={aOne} alt="a-1" className="object-cover" />
@@ -47,7 +46,7 @@ const Campus = () => {
                 and shape decisions within their respective communities.
               </p>
 
-              <Link to="https://bit.ly/mycliqambassador">
+              <Link to="https://bit.ly/Sync360ambassador">
                 <button className="cursor-pointer mx-auto md:mx-0  my-4 md:my-0 flex justify-center bg-[#333333] text-white hover:text-black px-4 py-3 border border-white rounded-md">
                   Apply Now
                 </button>

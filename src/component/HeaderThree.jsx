@@ -1,4 +1,3 @@
-import React from "react";
 import aOne from "../assets/images/a-1.svg";
 import cOne from "../assets/images/c-1.svg";
 import cTwo from "../assets/images/c-2.svg";
@@ -12,8 +11,9 @@ const HeaderThree = () => {
     {
       id: 1,
       icn: cOne,
-      bTile: "Payment with Phone Number",
-      sTile: "Think of your phone number as an ATM card.",
+      bTile: "Inventory",
+      sTile:
+        "Track stock levels in real time and manage your products without stress.",
     },
     {
       id: 2,
@@ -24,26 +24,35 @@ const HeaderThree = () => {
     {
       id: 3,
       icn: cThree,
-      bTile: "Event Tickerting",
-      sTile: "Purchase event tickets with ease.",
+      bTile: "Payments",
+      sTile:
+        "Accept card, transfer, and QR payments using just your smartphone",
     },
     {
       id: 4,
       icn: cFour,
-      bTile: "Bills Payment",
-      sTile: "Pay your bills seamlessley.",
+      bTile: "Marketing Automation",
+      sTile:
+        "Send SMS campaigns and win back customers without lifting a finger.",
     },
     {
       id: 5,
       icn: cFive,
-      bTile: "Inter-bank Transfer",
-      sTile: "Transfer funds to other banks.",
+      bTile: "Expenses",
+      sTile: "Monitor your daily spending and know where your money goes.",
     },
     {
       id: 6,
       icn: cSix,
-      bTile: "Wallet-to-Wallet Transfer",
-      sTile: "Seamless fund transfers between Theinsight users.",
+      bTile: "Storefront",
+      sTile: "Create website in minutes and  start selling online instantly.",
+    },
+    {
+      id: 7,
+      icn: cSix,
+      bTile: "Micro-Insurance",
+      sTile:
+        "Protect your business with up to ₦2 million in coverage for fire, theft, and damages. Coming soon",
     },
   ];
 

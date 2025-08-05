@@ -1,5 +1,3 @@
-import React from "react";
-
 const Terms = () => {
   return (
     <div className="w-[80%] mx-auto my-[1%]">
@@ -11,7 +9,7 @@ const Terms = () => {
         <p className="text-2xl mt-[2%] mb-[3%]">Introduction</p>
         <p className="leading-6 text-1xl ">
           These Terms shall govern your access to, and use of the services
-          provided by Mycliq which include all pages within our website, mobile
+          provided by Sync360 which include all pages within our website, mobile
           applications and other products and services (collectively referred to
           as the “Services”). By clicking to accept this Agreement, you agree to
           be bound by this Agreement, consent to electronic communications and
@@ -27,28 +25,28 @@ const Terms = () => {
           you have any objection to any of these Terms.
         </p>
         <p className="leading-6 text-1xl  mt-[2%]">
-          Mycliq reserves the right, at its sole discretion, to amend these
+          Sync360 reserves the right, at its sole discretion, to amend these
           Terms and Conditions, at any time. It is therefore your continuous
           responsibility to review these Terms and Conditions periodically for
           any changes. Your continued use of the Site following the posting of
           changes will mean that you unconditionally accept and agree to the
-          changes. As long as you comply with these Terms and Conditions, Mycliq
-          grants you a personal, non-exclusive, non-transferable, limited
-          privilege to use the Services provided The headings contained in this
-          document are for reference purposes only.
+          changes. As long as you comply with these Terms and Conditions,
+          Sync360 grants you a personal, non-exclusive, non-transferable,
+          limited privilege to use the Services provided The headings contained
+          in this document are for reference purposes only.
         </p>
         <p className="text-2xl my-[4%] ">2.0. Parties to this Agreement</p>
         <p className="leading-6 text-1xl ">
-          This Agreement is a contract between you (“You”, “Your”) and Mycliq
-          (“Mycliq ”, “We”, “Us”, “Our”) (each individually a “Party”, and
+          This Agreement is a contract between you (“You”, “Your”) and Sync360
+          (“Sync360 ”, “We”, “Us”, “Our”) (each individually a “Party”, and
           collectively the “Parties”). We are a technology company that connects
           individuals and businesses within communities, while driving financial
           inclusion and promoting a cashless society. Our registered office is
           at No 14, Ayaniyi street Oluyole Along Akala express Ibadan, Oyo
           state.. This Agreement governs Your non-transferable (unless with our
-          prior written consent) use of the Mycliq Mobile App, Mycliq website,
-          and any features and products that Mycliq may make available to You
-          through the Mycliq application or website (collectively, our
+          prior written consent) use of the Sync360 Mobile App, Sync360 website,
+          and any features and products that Sync360 may make available to You
+          through the Sync360 application or website (collectively, our
           “Services”).
         </p>
         <p className="text-2xl my-[4%] ">3.0. Eligibility</p>
@@ -71,11 +69,11 @@ const Terms = () => {
         </p>
         <p className="text-2xl my-[4%] ">4.0. Account Opening</p>
         <p className="leading-6 text-1xl ">
-          You can register or open an account with us via the Mycliq mobile
+          You can register or open an account with us via the Sync360 mobile
           application on your smart device, provided you are at least{" "}
           <span className="font-bold mr-1 ">15 Years</span>
           old and a Nigerian citizen. You must register an account with valid
-          information. To benefit from and use Mycliq services, you must:
+          information. To benefit from and use Sync360 services, you must:
         </p>
         <ul className="mt-[3%] leading-6">
           <li>(a) Provide a valid mobile phone number and BVN; </li>
@@ -119,7 +117,7 @@ const Terms = () => {
           You warrant that all information and documentation provided to us are
           true, correct, and accurate. <br />
           <br />
-          You hereby authorize Mycliq to verify information provided by you
+          You hereby authorize Sync360 to verify information provided by you
           against the information held by any third party (including official
           databases) such as, NIBBS, Government Identity Databases (NIMC etc.)
           any other information bank available to Us. We reserve the right to
@@ -131,7 +129,7 @@ const Terms = () => {
           <br />{" "}
           <span className="font-bold">
             The table below outlines the customer tier classification and
-            applicable transaction limits Mycliq adopts based on KYC levels.
+            applicable transaction limits Sync360 adopts based on KYC levels.
           </span>{" "}
           You are not authorized to withdraw, transfer or make any payments that
           together exceed any of the per transaction or daily limits defined for
@@ -144,7 +142,7 @@ const Terms = () => {
           you. This number will be needed for funding your account by yourself
           and third parties..
           <br />
-          <br /> You can transfer funds to other accounts on the Mycliq Mobile
+          <br /> You can transfer funds to other accounts on the Sync360 Mobile
           App and to any bank account within Nigeria. <br />
           <br />
           Transfers or payments may not be processed if: <br />
@@ -166,15 +164,15 @@ const Terms = () => {
           and push notifications. These are for your personal use only, and we
           are not liable for any loss or damage due to unauthorized access.
           Additionally, you agree to opt out of mandatory SMS alerts from the
-          CBN in favor of push notifications. You also agree to indemnify Mycliq
-          against any losses, damages, claims, or expenses, including legal
-          fees, arising from these notifications.
+          CBN in favor of push notifications. You also agree to indemnify
+          Sync360 against any losses, damages, claims, or expenses, including
+          legal fees, arising from these notifications.
         </p>
         <p className="text-2xl my-[4%] ">8.0 Prohibited Transactions</p>
         <p className="leading-6 text-1xl ">
-          Mycliq does not engage in or facilitate payments for cryptocurrency
-          transactions. You confirm that you will not use your Mycliq account to
-          deal in, trade, transact, or receive payments related to virtual
+          Sync360 does not engage in or facilitate payments for cryptocurrency
+          transactions. You confirm that you will not use your Sync360 account
+          to deal in, trade, transact, or receive payments related to virtual
           currencies. <br />
           <br />
           We reserve the right to terminate your use of our Services or any
@@ -184,7 +182,7 @@ const Terms = () => {
         <p className="text-2xl my-[4%] ">9. Anti-Fraud</p>
         <p className="leading-6 text-1xl ">
           You agree that if your account funds are flagged or suspected of being
-          fraudulent, Mycliq may suspend your account and retain the funds
+          fraudulent, Sync360 may suspend your account and retain the funds
           pending investigation. You consent to account restrictions and
           reporting to law enforcement agencies, including the EFCC, NFIU, and
           Nigerian Police Force, if fraudulent activity is detected. You also
@@ -193,16 +191,16 @@ const Terms = () => {
         </p>
         <p className="text-2xl my-[4%] ">10. Disclaimer</p>
         <p className="leading-6 text-1xl ">
-          We strive to keep Mycliq available, bug-free, and safe, but you use it
-          at your own risk. <br />
+          We strive to keep Sync360 available, bug-free, and safe, but you use
+          it at your own risk. <br />
           <br />
           Our Platform and Services are provided "as is" without any express,
           implied, or statutory warranties, including but not limited to implied
           warranties of merchantability, fitness for a particular purpose,
-          title, and non-infringement. Mycliq makes no warranty that our
+          title, and non-infringement. Sync360 makes no warranty that our
           Platform and Services will meet your requirements or that they will be
           uninterrupted, timely, secure, or error-free. No advice or information
-          obtained by you from Mycliq or its affiliates shall create any
+          obtained by you from Sync360 or its affiliates shall create any
           warranty. We do not guarantee the quality, accuracy, timeliness,
           truthfulness, completeness, or reliability of the Platform or Services
         </p>
@@ -210,7 +208,7 @@ const Terms = () => {
         <p className="leading-6 text-1xl ">
           We may use your personal information to inform you about new products
           and services that may interest you. By opening an account with us, you
-          consent to receiving updates about Mycliq products and services. You
+          consent to receiving updates about Sync360 products and services. You
           can unsubscribe from our newsletter using the link provided.
         </p>
         <p className="text-2xl my-[4%] ">12. Anti-Corruption</p>
@@ -221,7 +219,7 @@ const Terms = () => {
         </p>
         <p className="text-2xl my-[4%] ">13. Indemnity</p>
         <p className="leading-6 text-1xl ">
-          You agree to defend, indemnify, and hold Mycliq, its officers,
+          You agree to defend, indemnify, and hold Sync360, its officers,
           directors, employees, agents, licensors, and suppliers, harmless from
           and against any claims, actions or demands, liabilities and
           settlements including without limitation, reasonable legal and
@@ -235,33 +233,34 @@ const Terms = () => {
         </p>
         <p className="text-2xl my-[4%] ">15. Contact Us</p>
         <p className="leading-6 text-1xl ">
-          If you have any questions about your relationship with Mycliq , you
-          can contact us via email via mail at info@mycliq.tech Work in progress
-          Privacy policy. We’re Mycliq (‘we’, ‘our’, ‘us’) and operate under the
-          name Mycliq. We’re registered with the Corporate Affairs Commission
-          with the number 7459498 This policy describes what information we
-          collect about you, how we collect and use the information you share
-          with us, and with whom we share that information. You don’t have to
-          share any information with us, but to use our services, we’ll need
-          some information from you. This policy also contains information about
-          when we share your personal information with third parties (such as
-          our service providers and credit bureaus).
+          If you have any questions about your relationship with Sync360 , you
+          can contact us via email via mail at info@Sync360.tech Work in
+          progress Privacy policy. We’re Sync360 (‘we’, ‘our’, ‘us’) and operate
+          under the name Sync360. We’re registered with the Corporate Affairs
+          Commission with the number 7459498 This policy describes what
+          information we collect about you, how we collect and use the
+          information you share with us, and with whom we share that
+          information. You don’t have to share any information with us, but to
+          use our services, we’ll need some information from you. This policy
+          also contains information about when we share your personal
+          information with third parties (such as our service providers and
+          credit bureaus).
         </p>
         <p className="text-2xl my-[4%] ">What information do we collect?</p>
         <p className="leading-6 text-1xl ">
-          Information you give us on Mycliq Applications
+          Information you give us on Sync360 Applications
           <br />
           <br /> We collect and use any information you supply when you interact
           with any of our touch points. When you open an account with us, you
           share details like your names, Bank Verification Number (BVN),
           identification documents, address and pictures. By using our card or
-          any Mycliq Application to transact, you also share details of your
+          any Sync360 Application to transact, you also share details of your
           transactions with us. Additionally, we may request explicit permission
           to see other information like your address book, location, photos and
           data from your phone camera. Other details we collect and what we do
           with them include;
           <br />
-          <br /> Details you give when you sign up for a Mycliq account, like
+          <br /> Details you give when you sign up for a Sync360 account, like
           your BVN, names, date of birth, gender, phone number, residential
           address, and email address are in fulfillment of regulatory
           requirements.
@@ -273,7 +272,7 @@ const Terms = () => {
           process. This process is required to meet account opening regulations.
           <br />
           <br />
-          The Mycliq app collects the camera intrinsic matrix, facial
+          The Sync360 app collects the camera intrinsic matrix, facial
           expressions, orientation and location of the user's head, and the
           position of the camera to verify that the user is recording the video
           live.
@@ -302,10 +301,10 @@ const Terms = () => {
           <br /> Public details from your social media profile (like Facebook,
           Instagram or Twitter) if you reach out to us via these platforms, and
           the contents of your messages or posts to us. Information we collect
-          when you use Mycliq channels The mobile network operator and the
+          when you use Sync360 channels The mobile network operator and the
           operating system that you use, Your IP addresses and device ID Your
           phone contacts so you can make airtime purchases or pay contacts on
-          Mycliq Information we get from third parties
+          Sync360 Information we get from third parties
           <br />
           <br /> As part of our Know Your Customer (KYC) process, we run checks
           on the identity information you supply during signup. We will try to
@@ -382,11 +381,11 @@ const Terms = () => {
       </p>
       <p className="text-2xl my-[4%] ">How long do we keep your data?</p>
       <p className="leading-6 text-1xl ">
-        We keep your information as long as you are a Mycliq customer and for
+        We keep your information as long as you are a Sync360 customer and for
         any additional period as required under applicable law or regulations.
         These retention requirements supersede any right to erasure requests
         under applicable data protection laws. We cannot therefore erase your
-        data in relation to your Mycliq Account until after this time period,
+        data in relation to your Sync360 Account until after this time period,
         however we can assure you that your data will be held safely and
         securely whilst under our supervision.
       </p>
@@ -396,7 +395,7 @@ const Terms = () => {
         as it is necessary to perform our obligations under the agreement with
         you or as long as the law requires us to store it. That means, if the
         data is not required anymore for statutory or contractual obligations,
-        your data will be deleted. If you choose to delete your Mycliq account,
+        your data will be deleted. If you choose to delete your Sync360 account,
         we will delete any data you have previously given us, including the
         video of your face uploaded during the liveness check. However this is
         subject to the retention regulations that apply to such data as
@@ -404,12 +403,12 @@ const Terms = () => {
       </p>
       <p className="text-2xl my-[4%] ">How to make a complaint</p>
       <p className="leading-6 text-1xl ">
-        At Mycliq , we’re extremely committed to respecting and protecting your
+        At Sync360 , we’re extremely committed to respecting and protecting your
         personal information. If you have any worries, reservations or
         complaints about your personal information, please contact our Data
         Protection Officer by:
         <br />
-        <br /> Sending a message via the app Emailing us at Info@Mycliq.tech
+        <br /> Sending a message via the app Emailing us at Info@Sync360.tech
         Changes to this document This document will be reviewed on a yearly
         basis, or more frequently if occasioned by changes or amendment to
         applicable data protection regulations.

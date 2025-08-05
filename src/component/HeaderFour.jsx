@@ -1,4 +1,3 @@
-import React from "react";
 import aOne from "../assets/images/a-1.svg";
 import picOne from "../assets/images/pic-1.png";
 import picTwo from "../assets/images/pic-2.png";
@@ -8,7 +7,7 @@ const HeaderFour = () => {
   return (
     <div className="w-full h-full p-5">
       <div className="flex items-start gap-2 justify-center mb-[3rem] md:mb-[5rem] w-full p-0">
-        <p className=" text-[25px] md:text-[48px] text-center">Why MyCliq?</p>
+        <p className=" text-[25px] md:text-[48px] text-center">Why Sync360?</p>
         <sup>
           <img src={aOne} alt="a-1" className="object-cover" />
         </sup>
@@ -16,12 +15,12 @@ const HeaderFour = () => {
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-1">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <p className=" text-[25px] md:text-[32px]">Financials</p>
+            <p className=" text-[25px] md:text-[32px]">
+              Smarter Inventory Management
+            </p>
             <p className="text-[18px] md:text-[20px] text-center  md:text-start text-[#535353]">
-              MyCliq is not just another retail app; it's a platform tailored to
-              cater specifically to the needs of  communities. Individuals can
-              embark on a journey of convenience, savings, and rewards. MyCliq
-              offers a plethora of financial benefits. 
+              Stop the guesswork. With Sync360, you always know what’s in stock,
+              what’s selling, and what needs restocking — in real time
             </p>
           </div>
         </div>
@@ -34,11 +33,11 @@ const HeaderFour = () => {
         <div className="w-full flex-1 order-2 md:order-2">
           <div className="flex flex-col items-center md:items-start gap-2">
             <p className="text-[20px] md:text-[32px]  md:my-0">
-              Secure And Encrypted
+              The New Way to Pay
             </p>
             <p className="text-[18px] md:text-start text-center md:text-[20px] text-[#535353]">
-              Security is a top priority with MyCliq. All transactions are
-              encrypted to safeguard your financial information.
+              Say goodbye to bulky POS systems. Accept card, transfer, using
+              only your phone with SoftPOS. Anytime. Anywhere.
             </p>
           </div>
         </div>
@@ -50,13 +49,12 @@ const HeaderFour = () => {
         <div className="w-full flex-1 order-2 md:order-1">
           <div className="flex flex-col items-center md:items-start gap-2">
             <p className="text-[20px] md:text-[32px]  md:my-0">
-              Transportation
+              Your Business, Now Online
             </p>
             <p className="text-[18px] md:text-start text-center md:text-[20px] text-[#535353]">
-              MyCliq is more than just a payment app – it's a community platform
-              designed to make transportation a safe and reliable environment.
-              Just by scanning a drivers QR code, you can pay. With MyCliq you
-              can confidently say bye to delay and cash hassle.
+              With Sync360’s digital storefront, you can showcase your products
+              and sell online instantly — no coding, no delays. Reach more
+              customers beyond your physical shop.
             </p>
           </div>
         </div>
@@ -67,12 +65,13 @@ const HeaderFour = () => {
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-2">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <p className=" text-[25px] md:text-[32px]">New Ways To Pay</p>
+            <p className=" text-[25px] md:text-[32px]">
+              Customer Support That Feels Human
+            </p>
             <p className="text-[18px] md:text-[20px] text-center  md:text-start text-[#535353]">
-              MyCliq is fast, simple and secure. You can say goodbye to cash and
-              long payment processes! MyCliq makes transactions seamless with
-              modern QR code payments and NFC technology. Experience the future
-              of payments with MyCliq!
+              We don’t just help you when there’s a problem. We work with you to
+              grow. Our support team understands your hustle and is ready to
+              walk the journey with you.
             </p>
           </div>
         </div>
@@ -91,14 +90,12 @@ const HeaderFour = () => {
         </div>
         <div className="flex-1 flex flex-col items-center order-2 md:order-1  md:items-start gap-2">
           <p className="text-[20px] md:text-[32px] mb-1  md:mt-0 mt-[3rem]">
-            Customer Support
+            Embedded Micro-Insurance for Business Resilience
           </p>
           <p className="text-[18px] md:text-[20px] text-center md:text-start text-[#535353]">
-            We know you need assistance! We put our users and partners first.
-            That's why we offer friendly and top-notch 24/7 customer support
-            that goes above and beyond your expectations. Whether you have a
-            question, need assistance, or just want to say hello, our dedicated
-            support team is here to meet your distinct needs.
+            Give your users more than tools — give them a safety net. With up to
+            ₦2 million in automatic coverage against fire, theft, and damage,
+            Sync360 helps businesses survive and grow.
           </p>
         </div>
       </div>

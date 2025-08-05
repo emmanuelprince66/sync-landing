@@ -1,16 +1,8 @@
 import Header from "../component/Header";
 import Navbar from "../component/Navbar";
-import HeaderTwo from "../component/HeaderTwo";
-import HeaderThree from "../component/HeaderThree";
 
-import HeaderFour from "../component/HeaderFour";
-import HeaderFive from "../component/HeaderFive";
 import Footer from "../component/Footer";
-import { useState } from "react";
 import Home from "../page/Home";
-import Business from "../page/Business";
-import Campus from "../page/Campus";
-import Terms from "../page/Terms";
 function Index() {
   return (
     <div>
@@ -19,7 +11,7 @@ function Index() {
       {/*  */}
       <div
         className={`w-full 
-         bg-primary_black_1
+         bg-[#FEFBEA]
          h-full`}
       >
         <div className=" w-full md:w-[80%] mx-auto h-full p-3">
@@ -29,7 +21,7 @@ function Index() {
         </div>
       </div>
       <Home />
-      <div className="h-full w-full bg-primary_black_1 pt-[7%] ">
+      <div className="h-full w-full bg-[#013220] pt-[7%] ">
         <div className="w-full md:w-[75%] mx-auto h-full pt-[1%] ">
           <Footer />
         </div>

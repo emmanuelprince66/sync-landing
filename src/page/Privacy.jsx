@@ -1,6 +1,3 @@
-import React from "react";
-import Navbar from "../component/Navbar";
-
 const Privacy = () => {
   return (
     <>
@@ -12,7 +9,7 @@ const Privacy = () => {
         <div className="w-full items-start flex-col flex mt-[4%]">
           <p className="text-2xl mt-[2%] mb-[3%]">Background</p>
           <p className="leading-6 text-1xl ">
-            We’re Mycliq (‘we’, ‘our’, ‘us’), operating under the name Mycliq.
+            We’re Sync360 (‘we’, ‘our’, ‘us’), operating under the name Sync360.
             We’re registered with the Corporate Affairs Commission under number
             7459498. This policy outlines the information we collect about you,
             how we collect and use the information you provide, and with whom we
@@ -37,27 +34,29 @@ const Privacy = () => {
             information you provide. Upon opening an account with us, you will
             share details such as your name, Bank Verification Number (BVN),
             identification documents, address, and photos. The details you
-            provide during the Mycliq account registration process, including
+            provide during the Sync360 account registration process, including
             your BVN, name, date of birth, gender, phone number, residential
             address, and email address, are collected to comply with regulatory
             requirements.
           </p>
           <p className="text-2xl my-[4%] ">
-            Information you give us on Mycliq Applications
+            Information you give us on Sync360 Applications
           </p>
           <p className="leading-6 text-1xl ">
             We collect and use any information you supply when you interact with
             any of our Product. When you open an account with us, you share
             details like your names, Bank Verification Number (BVN),
-            identification documents, and address . By using Mycliq Application
+            identification documents, and address . By using Sync360 Application
             to transact, you also share details of your transactions with us.
             Additionally, we may request explicit permission to see other
             information like your address book, location, photos and data from
             your phone camera. Other details we collect and what we do with them
-            include;<br/><br/> Details you give when you sign up for a Mycliq account,
-            like your BVN, names, date of birth, gender, phone number,
-            residential address, and email address are in fulfillment of
-            regulatory requirements.
+            include;
+            <br />
+            <br /> Details you give when you sign up for a Sync360 account, like
+            your BVN, names, date of birth, gender, phone number, residential
+            address, and email address are in fulfillment of regulatory
+            requirements.
           </p>
           <p className="text-2xl my-[4%] ">True Depth API Usage</p>
           <p className="leading-6 text-1xl ">
@@ -120,11 +119,11 @@ const Privacy = () => {
           </p>
           <p className="text-2xl my-[4%] ">How long do we keep your data?</p>
           <p className="leading-6 text-1xl ">
-            We keep your information as long as you are a Mycliq customer and
+            We keep your information as long as you are a Sync360 customer and
             for any additional period as required under applicable law or
             regulations. These retention requirements supersede any right to
             erasure requests under applicable data protection laws. We cannot
-            therefore erase your data in relation to your Mycliq Account until
+            therefore erase your data in relation to your Sync360 Account until
             after this time period, however we assure you that your data will be
             held safely and securely whilst under our supervision.
           </p>
@@ -136,21 +135,21 @@ const Privacy = () => {
             <br />
             That means, if the data is not required anymore for statutory or
             contractual obligations, your data will be deleted. If you choose to
-            delete your Mycliq account, we will delete any data you have
+            delete your Sync360 account, we will delete any data you have
             previously given us.
           </p>
           <p className="text-2xl my-[4%] ">10. Disclaimer</p>
           <p className="leading-6 text-1xl ">
-            We strive to keep Mycliq available, bug-free, and safe, but you use
+            We strive to keep Sync360 available, bug-free, and safe, but you use
             it at your own risk. <br />
             <br />
             Our Platform and Services are provided "as is" without any express,
             implied, or statutory warranties, including but not limited to
             implied warranties of merchantability, fitness for a particular
-            purpose, title, and non-infringement. Mycliq makes no warranty that
+            purpose, title, and non-infringement. Sync360 makes no warranty that
             our Platform and Services will meet your requirements or that they
             will be uninterrupted, timely, secure, or error-free. No advice or
-            information obtained by you from Mycliq or its affiliates shall
+            information obtained by you from Sync360 or its affiliates shall
             create any warranty. We do not guarantee the quality, accuracy,
             timeliness, truthfulness, completeness, or reliability of the
             Platform or Services
@@ -180,13 +179,13 @@ const Privacy = () => {
           </p>
           <p className="text-2xl my-[4%] ">How to make a complaint</p>
           <p className="leading-6 text-1xl ">
-            At Mycliq, we are deeply committed to respecting and protecting your
-            personal information. If you have any concerns, reservations, or
-            complaints about your personal information, please contact our
+            At Sync360, we are deeply committed to respecting and protecting
+            your personal information. If you have any concerns, reservations,
+            or complaints about your personal information, please contact our
             Compliance Officer by
             <br />
             <br /> Sending a message via the app Emailing us at
-            business@Mycliq.tech
+            business@Sync360.tech
           </p>
         </div>{" "}
       </div>

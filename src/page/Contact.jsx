@@ -1,11 +1,10 @@
-import React from "react";
-import Navbar from "../component/Navbar";
 import { Grid, Typography } from "@mui/material";
-import { useState, useEffect } from "react";
-
 import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Navbar from "../component/Navbar";
 
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
 import RemoveRoundedIcon from "@mui/icons-material/RemoveRounded";
@@ -24,57 +23,63 @@ const Contact = () => {
   const accordionData = [
     {
       id: 1,
-      text: "What is MyCliq?",
-      content: "",
+      text: "What is Sync360?",
+      content:
+        "  Sync360 is an all-in-one inventory and business management software designed to help you track stock, monitor sales, record expenses, receive payments, automate marketing, manage an online storefront, and secure your business with optional insurance coverage.",
     },
     {
       id: 2,
-      text: "Who is eligible for loans on MyCliq?",
-      content: "",
+      text: "Who is Sync360 built for?",
+      content:
+        " Sync360 is perfect for retail shops, supermarkets, logistics firms, fashion outlets, automobile part stores, pharmacies, and small to medium-sized businesses that need better control over inventory, expenses, and sales",
     },
     {
       id: 3,
-      text: "How many types of savings are there on MyCliq?",
-      content: {
-        one: "Share Your Code: Invite friends to join MyCliq using your unique referral code.",
-        two: "They Join: Sign up and start using the app.",
-        three: "You Earn: Receive up to #2000 for each successful referral.",
-      },
+      text: " Can I manage multiple branches or team members with one account",
+      content:
+        "Yes. Sync360 allows multi-branch support and team management. You can add staff with specific roles and permissions for secure operations.",
     },
     {
       id: 4,
-      text: "Is it mandatory to pay the membership fee?",
-      content: "",
+      text: "What makes Sync360 different from other inventory apps",
+      content:
+        "Beyond inventory tracking, Sync360 offers features like expense monitoring, real-time sales analysis, online storefront creation, in-app payment solutions, business insurance options, and built-in marketing automation  ",
     },
     {
       id: 5,
-      text: "Can I take advantage of an investment opportunity without having an active savings with the cooperative?",
-      content: "",
+      text: "How does the insurance feature work?",
+      content:
+        "Sync360 partners with insurance providers to help businesses secure their stock and assets against fire, theft, or loss. This comes with an option to include it in your subscription. You can apply for coverage directly within the app.",
     },
     {
       id: 6,
-      text: "What is the benefit for saving with the cooperative?",
-      content: "",
+      text: "What is the marketing automation feature about?",
+      content:
+        "Sync360 helps you boost sales by automating messages, promos, and alerts to your customers via SMS, email, or in-app notifications. You can set up campaigns and let the system handle the rest",
     },
     {
       id: 7,
-      text: "Can I save or invest without paying the membership fees?",
-      content: "",
+      text: "Is Sync360 available on mobile and web?",
+      content:
+        "Yes. You can use Sync360 via the mobile app (iOS & Android) or directly through your web browser. Your data syncs across all devices in real-time.",
     },
     {
       id: 8,
-      text: "How much can I access on loan?",
-      content: "",
+      text: " Is my data secure on Sync360?",
+      content:
+        "Absolutely. Sync360 uses encrypted cloud storage, secure backups, and multi-layered security to ensure your business data is safe",
     },
     {
       id: 9,
-      text: "When am I eligible to apply for a loan?",
-      content: "",
+      text: "How much does it cost to use Sync360?",
+      content:
+        "We offer a free trial, after which you can choose from flexible subscription plans based on your business size and needs. Payment options include card, bank transfer, and in-app wallet",
     },
     {
       id: 10,
-      text: "How can I apply for a loan?",
-      content: "",
+      text: "How do I get started and get help if needed?",
+      content:
+        "Getting Started is Easy! Download the app or visit business.sync360.africa to sign up.Need help? Access our video tutorials and onboarding guides, or contact our support team via WhatsApp at +234 814 269 9290 or email support@sync360.africa.",
     },
   ];
   return (
@@ -105,9 +110,11 @@ const Contact = () => {
                     WhatApp
                   </p>
 
-                  <p className="text-primary_green underline cursor-pointer font-[500] text-[15px]">
-                    Click here to start chat.
-                  </p>
+                  <Link to="https://wa.me/message/BEC7OOFPUWZZK1">
+                    <p className="text-primary_green underline cursor-pointer font-[500] text-[15px]">
+                      Click here to start chat.
+                    </p>
+                  </Link>
                   <p className="text-primary_gray font-normal text-[12px]">
                     Sunday - Saturday
                   </p>
@@ -134,7 +141,7 @@ const Contact = () => {
                   </p>
 
                   <p className="text-primary_black  font-[500] text-[15px]">
-                    02018891813
+                    +234 814 269 9290
                   </p>
                   <p className="text-primary_gray font-normal text-[12px]">
                     Sunday - Saturday
@@ -162,7 +169,7 @@ const Contact = () => {
                   </p>
 
                   <p className="text-primary_black  font-[500] text-[15px]">
-                    Mycustomer@mycliq.tech
+                    Partners@sync360.africa
                   </p>
                   <p className="text-primary_gray font-normal text-[12px]">
                     Sunday - Saturday

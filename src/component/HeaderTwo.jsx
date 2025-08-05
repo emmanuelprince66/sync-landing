@@ -1,7 +1,5 @@
-import React from "react";
 import aOne from "../assets/images/a-1.svg";
 import bTwo from "../assets/images/b-2.png";
-import nwOne from "../assets/images/nw-1.png";
 const HeaderTwo = () => {
   return (
     <div className="w-full p-5 h-full  ">
@@ -19,16 +17,16 @@ const HeaderTwo = () => {
         <div className="flex flex-col md:items-start gap-3 w-full md:w-[90%]  ">
           <span className="block md:flex gap-1 text-center md:text-start items-center">
             <p className="text-black text-[32px] ">Get to Know</p>
-            <p className="text-[#ff7f00] text-[32px] ">MyCliq</p>
+            <p className="text-[#ff7f00] text-[32px] ">Sync360</p>
           </span>
 
           <p className="text-[20px] text-[#535353]">
-            MyCliq is the ultimate solution for seamless payments. We are on a
+            Sync360 is the ultimate solution for seamless payments. We are on a
             mission to encourage the communities to embrace cashless
             transactions while offering vendors in such communities a range of
             convenient payment options designed to streamline transactions.
             Whether you're a user looking for a simpler way to pay or a vendor
-            seeking streamlined transaction solutions, MyCliq is creating a
+            seeking streamlined transaction solutions, Sync360 is creating a
             community that thrives without cash. 
           </p>
         </div>

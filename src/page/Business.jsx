@@ -1,5 +1,4 @@
-import React from "react";
-import star from "../assets/images/star.svg";
+import aOne from "../assets/images/a-1.svg";
 import buOne from "../assets/images/bu-1.svg";
 import buTwo from "../assets/images/bu-2.svg";
 import buThree from "../assets/images/bu-3.svg";
@@ -7,11 +6,11 @@ import buFour from "../assets/images/bu-4.svg";
 import buSix from "../assets/images/bu-6.svg";
 import buSeven from "../assets/images/bu-7.svg";
 import buEight from "../assets/images/bu-8.svg";
-import aOne from "../assets/images/a-1.svg";
-import HeaderFive from "../component/HeaderFive";
 import merchant from "../assets/images/merchant.png";
-import Navbar from "../component/Navbar";
+import star from "../assets/images/star.svg";
 import Footer from "../component/Footer";
+import HeaderFive from "../component/HeaderFive";
+import Navbar from "../component/Navbar";
 
 const Business = () => {
   const card = [
@@ -24,28 +23,28 @@ const Business = () => {
     {
       id: 2,
       icn: buFour,
-      bTile: "Accept Payment with MyCliqID",
-      sTile: "Use your MyCliqID to receive payments quickly and securely!",
+      bTile: "Accept Payment with Sync360ID",
+      sTile: "Use your Sync360ID to receive payments quickly and securely!",
     },
     {
       id: 3,
       icn: buSix,
-      bTile: "MyCliq Soft POS",
+      bTile: "Sync360 Soft POS",
       sTile:
-        "Turn your NFC-enabled mobile device to a POS with MyCliq. No terminal required!",
+        "Turn your NFC-enabled mobile device to a POS with Sync360. No terminal required!",
     },
     {
       id: 4,
       icn: buSeven,
-      bTile: "MyCliq Soft POS",
+      bTile: "Sync360 Soft POS",
       sTile:
-        "Turn your NFC-enabled mobile device to a POS with MyCliq. No terminal required!",
+        "Turn your NFC-enabled mobile device to a POS with Sync360. No terminal required!",
     },
     {
       id: 5,
       icn: buEight,
       bTile: "POS Terminal",
-      sTile: "Collect card payment with MyCliq NFC-enabled POS terminal.",
+      sTile: "Collect card payment with Sync360 NFC-enabled POS terminal.",
     },
   ];
   return (
@@ -71,7 +70,7 @@ const Business = () => {
               </div>
 
               <p className="text-[25px] md:text-[48px] text-white text-center leading-8 md:leading-[3rem]">
-                MyCliq for your Business
+                Sync360 for your Business
               </p>
               <sup>
                 <img src={aOne} alt="a-1" className="object-cover " />
@@ -79,7 +78,7 @@ const Business = () => {
             </div>
 
             <p className="text-center text-[#D1D1D1] font-normal mt-4">
-              With MyCliq, you have the best tool needed to elevate your retail
+              With Sync360, you have the best tool needed to elevate your retail
               business. Your business enjoys seamless transactions and financial
               solutions.
             </p>
@@ -130,8 +129,8 @@ const Business = () => {
               <HeaderFive
                 img={merchant}
                 title="Merchant App"
-                alink="https://apps.apple.com/us/app/mycliq-merchant/id6514304176"
-                glink="https://play.google.com/store/apps/details?id=app.mycliq.merchant"
+                alink="https://apps.apple.com/us/app/Sync360-merchant/id6514304176"
+                glink="https://play.google.com/store/apps/details?id=app.Sync360.merchant"
                 type="merchant"
               />
             </div>

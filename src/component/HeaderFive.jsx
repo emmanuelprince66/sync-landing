@@ -1,9 +1,7 @@
-import React from "react";
-import aOne from "../assets/images/a-1.svg";
-import dFour from "../assets/images/d-4.png";
-import SmartDisplayIcon from "@mui/icons-material/SmartDisplay";
 import AppleIcon from "@mui/icons-material/Apple";
+import SmartDisplayIcon from "@mui/icons-material/SmartDisplay";
 import { Link } from "react-router-dom";
+import aOne from "../assets/images/a-1.svg";
 
 const HeaderFive = ({ img, title, type, glink, alink }) => {
   return (
@@ -32,7 +30,7 @@ const HeaderFive = ({ img, title, type, glink, alink }) => {
           </div>
           {type === "user" && (
             <p className="text-[#535353] font-[500] text-center text-[20px] mb-4">
-              Become a MyCliq User for free today!
+              Become a Sync360 User for free today!
             </p>
           )}
 

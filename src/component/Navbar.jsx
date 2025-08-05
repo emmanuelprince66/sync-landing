@@ -1,14 +1,13 @@
-import React, { useEffect, useRef, useState } from "react";
-import nOne from "../assets/images/n-1.png";
-import nwOne from "../assets/images/nw-1.png";
-import { Link as ScrollLink } from "react-scroll";
-import { Link, useNavigate } from "react-router-dom";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import Avatar from "@mui/material/Avatar";
-import Menu from "@mui/material/Menu";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
 import Tooltip from "@mui/material/Tooltip";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import nOne from "../assets/images/n-1.png";
+import sink1 from "../assets/images/sink2.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -22,20 +21,17 @@ const Navbar = () => {
     setAnchorEl(null);
   };
 
-  const url =
-    location === "/business"
-      ? "https://play.google.com/store/apps/details?id=app.mycliq.merchant"
-      : "https://play.google.com/store/apps/details?id=app.mycliq.us";
+  const url = "https://business.sync360.africa/login";
 
   return (
     <div
-      className={`w-full ${
-        location !== "/ambassadorship" && "bg-primary_black_1"
+      className={`w-full bg-[#FEFBEA] ${
+        location !== "/ambassadorship" && "bg-[#FEFBEA]"
       }    ${location !== "/" && "pb-[5%]"} p-5 `}
     >
-      <div className="w-full md:w-[90%] mx-auto hidden  md:flex justify-between items-center">
+      <div className="w-full  mx-auto hidden  md:flex justify-between items-center">
         <div className="">
-          <img src={nOne} alt="n-img object-contain" />
+          <img src={sink1} alt="n-img" className="w-[200px] h-[100px]" />
         </div>
 
         <div className="flex  justify-between   items-center ">
@@ -48,7 +44,7 @@ const Navbar = () => {
                 offset={-2}
                 duration={500}
               >
-                <p className="text-[#D7D7D7] mr-4 text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out">
+                <p className="text-black mr-4 font-bold text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out">
                   About
                 </p>
               </ScrollLink>
@@ -59,7 +55,7 @@ const Navbar = () => {
                 offset={-2}
                 duration={500}
               >
-                <p className="text-[#D7D7D7]  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out">
+                <p className="text-black  mr-4 font-bold text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out">
                   Features
                 </p>
               </ScrollLink>
@@ -70,8 +66,8 @@ const Navbar = () => {
                 offset={-2}
                 duration={500}
               >
-                <p className="text-[#D7D7D7]  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out">
-                  Why MyCliq?
+                <p className="text-black  mr-4 font-bold  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out">
+                  Why Sync360?
                 </p>
               </ScrollLink>
             </>
@@ -82,23 +78,23 @@ const Navbar = () => {
                 className={`${
                   location === "/ambassadorship"
                     ? "text-[#656565]"
-                    : "text-[#D7D7D7]"
-                }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
+                    : "text-black"
+                }  mr-4  text-[16px] font-bold hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
               >
-                MyCliq
+                Sync360
               </p>
             </div>
           )}
-
+          {/* 
           <div onClick={() => navigate("/business")}>
             <p
               className={`${
                 location === "/ambassadorship"
                   ? "text-[#656565]"
                   : "text-[#D7D7D7]"
-              }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
+              }  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
             >
-              MyCliq for Business
+              Sync360 for Business
             </p>
           </div>
           <div onClick={() => navigate("/ambassadorship")}>
@@ -107,16 +103,16 @@ const Navbar = () => {
                 location === "/ambassadorship"
                   ? "text-[#656565]"
                   : "text-[#D7D7D7]"
-              }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
+              }  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
             >
               Campus Ambassador
             </p>
-          </div>
+          </div> */}
           <div onClick={() => navigate("/contact")}>
             <p
               className={`${
-                location === "/contact" ? "text-[#656565]" : "text-[#D7D7D7]"
-              }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
+                location === "/contact" ? "text-black" : "text-black"
+              }  mr-4  text-[16px] font-bold hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
             >
               Contact Us
             </p>
@@ -127,11 +123,11 @@ const Navbar = () => {
           <button
             className={`${
               location === "/ambassadorship"
-                ? "bg-[#333333] text-white"
-                : "bg-white"
-            } w-[150px] hover:text-[#ff7f00] transition-colors font-bold duration-700 ease-in-out rounded-md text-[16px] h-[50px]`}
+                ? "bg-[#C4F928] text-white"
+                : "bg-[#C4F928]"
+            } w-[150px] hover:text-green-500 transition-colors font-bold duration-700 ease-in-out rounded-md text-[16px] h-[50px]`}
           >
-            Get The App
+            Login
           </button>
         </Link>
       </div>
@@ -139,8 +135,8 @@ const Navbar = () => {
       {/* possibly hamburger menu for mobile */}
       <div className="w-full  md:hidden p-3">
         <div className="flex w-full justify-between items-center">
-          <div className=" ">
-            <img src={nOne} alt="n-img" className="w-25 h-5  object-cover" />
+          <div className="ml-[-2rem]">
+            <img src={sink1} alt="n-img" className="w-[200px] h-[100px]" />
           </div>
 
           <div>
@@ -206,7 +202,7 @@ const Navbar = () => {
                 >
                   <p
                     onClick={handleClose}
-                    className="text-[#000] mr-4 text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out"
+                    className="text-[#000] mr-4 text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out"
                   >
                     About
                   </p>
@@ -220,7 +216,7 @@ const Navbar = () => {
                 >
                   <p
                     onClick={handleClose}
-                    className="text-[#000]  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out"
+                    className="text-[#000]  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out"
                   >
                     Features
                   </p>
@@ -234,11 +230,20 @@ const Navbar = () => {
                 >
                   <p
                     onClick={handleClose}
-                    className="text-[#000]  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out"
+                    className="text-[#000]  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out"
                   >
-                    Why MyCliq
+                    Why Sync360
                   </p>
                 </ScrollLink>
+                <div onClick={() => navigate("/contact")}>
+                  <p
+                    className={`${
+                      location === "/contact" ? "text-black" : "text-black"
+                    }  mr-4  text-[16px]  hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
+                  >
+                    Contact Us
+                  </p>
+                </div>
               </>
             )}
             {location !== "/" && (
@@ -246,40 +251,40 @@ const Navbar = () => {
                 <p
                   className={`${
                     location === "/ambassadorship"
-                      ? "text-[#656565]"
+                      ? "text-black"
                       : "text-[#000]"
-                  }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
+                  }  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
                   onClick={handleClose}
                 >
-                  MyCliq
+                  Sync360
                 </p>
               </div>
             )}
-
-            <div onClick={() => navigate("/business")}>
-              <p
-                className={`${
-                  location === "/ambassadorship"
-                    ? "text-[#656565]"
-                    : "text-[#000]"
-                }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
-                onClick={handleClose}
-              >
-                MyCliq for Business
-              </p>
-            </div>
-            <div onClick={() => navigate("/ambassadorship")}>
-              <p
-                className={`${
-                  location === "/ambassadorship"
-                    ? "text-[#656565]"
-                    : "text-[#000]"
-                }  mr-4  text-[16px] hover:text-[#ff7f00] cursor-pointer transition-colors duration-700 ease-in-out`}
-                onClick={handleClose}
-              >
-                Campus Ambassador
-              </p>
-            </div>
+            {/* 
+              <div onClick={() => navigate("/business")}>
+                <p
+                  className={`${
+                    location === "/ambassadorship"
+                      ? "text-[#656565]"
+                      : "text-[#000]"
+                  }  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
+                  onClick={handleClose}
+                >
+                  Sync360 for Business
+                </p>
+              </div>
+              <div onClick={() => navigate("/ambassadorship")}>
+                <p
+                  className={`${
+                    location === "/ambassadorship"
+                      ? "text-[#656565]"
+                      : "text-[#000]"
+                  }  mr-4  text-[16px] hover:text-green-500 cursor-pointer transition-colors duration-700 ease-in-out`}
+                  onClick={handleClose}
+                >
+                  Campus Ambassador
+                </p>
+              </div> */}
           </div>
         </Menu>
       </div>
