@@ -1,8 +1,8 @@
 import aOne from "../assets/images/a-1.svg";
-import picOne from "../assets/images/pic-1.png";
 import picTwo from "../assets/images/pic-2.png";
 import picThree from "../assets/images/pic-3.png";
 import picFour from "../assets/images/pic-4.png";
+import smart from "../assets/images/smart.jpg";
 const HeaderFour = () => {
   return (
     <div className="w-full h-full p-5">
@@ -15,24 +15,24 @@ const HeaderFour = () => {
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-1">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <p className=" text-[25px] md:text-[32px]">
+            <p className=" text-[25px] text-center md:text-start md:text-[32px]">
               Smarter Inventory Management
             </p>
             <p className="text-[18px] md:text-[20px] text-center  md:text-start text-[#535353]">
               Stop the guesswork. With Sync360, you always know what’s in stock,
-              what’s selling, and what needs restocking — in real time
+              what’s selling, and what needs restocking in real time
             </p>
           </div>
         </div>
         <div className="w-full flex-1 order-1 md:order-2">
-          <img src={picOne} alt="pic-1" className="w-full h-full" />
+          <img src={smart} alt="pic-1" className="w-full h-full" />
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-2">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <p className="text-[20px] md:text-[32px]  md:my-0">
+            <p className="text-[25px] md:text-[32px]  md:my-0">
               The New Way to Pay
             </p>
             <p className="text-[18px] md:text-start text-center md:text-[20px] text-[#535353]">
@@ -48,12 +48,12 @@ const HeaderFour = () => {
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-1">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <p className="text-[20px] md:text-[32px]  md:my-0">
+            <p className="text-[25px] md:text-[32px]  md:my-0">
               Your Business, Now Online
             </p>
             <p className="text-[18px] md:text-start text-center md:text-[20px] text-[#535353]">
               With Sync360’s digital storefront, you can showcase your products
-              and sell online instantly — no coding, no delays. Reach more
+              and sell online instantly no coding, no delays. Reach more
               customers beyond your physical shop.
             </p>
           </div>
@@ -65,7 +65,7 @@ const HeaderFour = () => {
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-2">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <p className=" text-[25px] md:text-[32px]">
+            <p className=" text-[25px] text-center md:text-start md:text-[32px]">
               Customer Support That Feels Human
             </p>
             <p className="text-[18px] md:text-[20px] text-center  md:text-start text-[#535353]">
@@ -76,26 +76,27 @@ const HeaderFour = () => {
           </div>
         </div>
         <div className="w-full flex-1 order-1 md:order-1">
-          <img src={picOne} alt="pic-1" className="w-full h-full" />
+          <img src={picFour} alt="pic-1" className="w-full h-full" />
         </div>
       </div>
 
       <div className="block md:flex gap-[5rem] mb-[4rem]">
         <div className="w-full flex-1 order-2 md:order-2">
           <img
-            src={picFour}
+            src={picTwo}
             alt="pic-4"
             className="w-full h-full rounded-md  "
           />
         </div>
         <div className="flex-1 flex flex-col items-center order-2 md:order-1  md:items-start gap-2">
-          <p className="text-[20px] md:text-[32px] mb-1  md:mt-0 mt-[3rem]">
+          <p className="text-[25px] text-center md:text-start md:text-[32px] mb-1  md:mt-0 mt-[3rem]">
             Embedded Micro-Insurance for Business Resilience
           </p>
           <p className="text-[18px] md:text-[20px] text-center md:text-start text-[#535353]">
-            Give your users more than tools — give them a safety net. With up to
-            ₦2 million in automatic coverage against fire, theft, and damage,
-            Sync360 helps businesses survive and grow.
+            With Sync360's Micro-Insurance, businesses get more than just a
+            tool, they get a safety net. Our automatic coverage provides up to
+            ₦2 million in protection against fire, theft, and damage, empowering
+            businesses to survive and thrive.
           </p>
         </div>
       </div>

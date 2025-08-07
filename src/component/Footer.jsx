@@ -19,9 +19,10 @@ const Footer = () => {
             <img src={nOne} alt="n-1" className="object-cover " />
           </div>
           <p className="text-[16px] text-[#F2F2F2] max-w-[90%]">
-            Sync360 seamlessly connects individuals and businesses within
+            {/* Sync360 seamlessly connects individuals and businesses within
             communities, while driving financial inclusion and promoting
-            cashless society.
+            cashless society. */}
+            Sync your business for total growth.
           </p>
         </div>
         <div className=" block md:flex justify-between items-start mt-3 md:mt-0">

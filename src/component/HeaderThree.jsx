@@ -1,6 +1,5 @@
 import aOne from "../assets/images/a-1.svg";
 import cOne from "../assets/images/c-1.svg";
-import cTwo from "../assets/images/c-2.svg";
 import cThree from "../assets/images/c-3.svg";
 import cFour from "../assets/images/c-4.svg";
 import cFive from "../assets/images/c-5.svg";
@@ -15,40 +14,40 @@ const HeaderThree = () => {
       sTile:
         "Track stock levels in real time and manage your products without stress.",
     },
+    // {
+    //   id: 2,
+    //   icn: cTwo,
+    //   bTile: "NFC Payments",
+    //   sTile: "Experience contactless payment.",
+    // },
     {
       id: 2,
-      icn: cTwo,
-      bTile: "NFC Payments",
-      sTile: "Experience contactless payment.",
-    },
-    {
-      id: 3,
       icn: cThree,
       bTile: "Payments",
       sTile:
         "Accept card, transfer, and QR payments using just your smartphone",
     },
     {
-      id: 4,
+      id: 3,
       icn: cFour,
       bTile: "Marketing Automation",
       sTile:
         "Send SMS campaigns and win back customers without lifting a finger.",
     },
     {
-      id: 5,
+      id: 4,
       icn: cFive,
       bTile: "Expenses",
       sTile: "Monitor your daily spending and know where your money goes.",
     },
     {
-      id: 6,
+      id: 5,
       icn: cSix,
       bTile: "Storefront",
       sTile: "Create website in minutes and  start selling online instantly.",
     },
     {
-      id: 7,
+      id: 6,
       icn: cSix,
       bTile: "Micro-Insurance",
       sTile:

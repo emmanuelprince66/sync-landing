@@ -6,7 +6,6 @@ import Tooltip from "@mui/material/Tooltip";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import nOne from "../assets/images/n-1.png";
 import sink1 from "../assets/images/sink2.png";
 
 const Navbar = () => {
@@ -260,6 +259,18 @@ const Navbar = () => {
                 </p>
               </div>
             )}
+
+            <Link to={url}>
+              <button
+                className={`${
+                  location === "/ambassadorship"
+                    ? "bg-[#C4F928] text-white"
+                    : "bg-[#C4F928]"
+                } w-[150px] hover:text-green-500 py-2 transition-colors font-bold duration-700 ease-in-out rounded-md text-[16px] `}
+              >
+                Login
+              </button>
+            </Link>
             {/* 
               <div onClick={() => navigate("/business")}>
                 <p
