@@ -1,4 +1,5 @@
 import aOne from "../assets/images/a-1.svg";
+import picOne from "../assets/images/pic-1.png";
 import picTwo from "../assets/images/pic-2.png";
 import picThree from "../assets/images/pic-3.png";
 import picFour from "../assets/images/pic-4.png";
@@ -42,7 +43,7 @@ const HeaderFour = () => {
           </div>
         </div>
         <div className="w-full flex-1 order-1 md:order-1">
-          <img src={picTwo} alt="pic-3" className="w-full h-full" />
+          <img src={picOne} alt="pic-3" className="w-full h-full" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-[5rem] mb-[4rem]">
